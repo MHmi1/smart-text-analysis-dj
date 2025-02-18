@@ -1,11 +1,32 @@
 # smart-text-analysis-dj
 System Analysis and Design Project - Buali Sina university
 ## <a href="https://docs.google.com/document/d/1FNOPGcMwcgWNx5GGXCWIE0_kgJKzGjx4ChPE7sT29m4/edit?usp=sharing"> Project Report link </a>
-## -> this project have to main AI parts :
-1. sentiment analysis (Persian and english support) : this Phase is based on CNN model and used IMDB Dataset of 50K Movie Reviews .
-2. text summarization (Persian and english support) : this Phase is based on Bart model that is a Seq-to-Seq Pre-training model for Natural Language Generation, Translation, and Comprehension . our dataset is cnn_dailymail .
-3. image retreieval system  : this Phase is based on VGG16 Deep model .
-4. spam sms/email detection : using ensemble learning using : 1- MultinomialNB()  2-LinearSVC()  3-DecisionTreeClassifier() with 98.5% accuracy
+
+##✅ Project Overview
+
+This project encompasses four main AI components:
+
+1. ✅ **Sentiment Analysis** (Supports Persian and English):
+   - **Model:** LSTM Neural Network 
+   - **Dataset:** IMDB 50K Movie Reviews
+   - **Description:** Implements a CNN-based model to classify sentiments in movie reviews, supporting both Persian and English languages.
+
+2.✅ **Text Summarization** (Supports Persian and English):
+   - **Model:** BART (Bidirectional and Auto-Regressive Transformers)
+   - **Dataset:** CNN/DailyMail
+   - **Description:** Utilizes the BART sequence-to-sequence pre-training model for generating concise summaries of lengthy texts in both Persian and English.
+
+3.✅ **Image Retrieval System**:
+   - **Model:** VGG16 Deep Neural Network
+   - **Description:** Employs the VGG16 model to extract features from images, facilitating efficient image retrieval based on content similarity.
+
+4.✅ **Spam SMS/Email Detection**:
+   - **Model:** Ensemble Learning combining:
+     - Multinomial Naive Bayes (`MultinomialNB()`)
+     - Linear Support Vector Classification (`LinearSVC()`)
+     - Decision Tree Classifier (`DecisionTreeClassifier()`)
+   - **Accuracy:** Achieved 98.5% accuracy
+   - **Description:** Detects spam messages by leveraging an ensemble of classifiers to enhance detection accuracy.
 
 downlaod model :
 <p><a href="https://drive.google.com/file/d/13QmMsfNwvm6U4asXd6gurvSkl3nbuIEL/view?usp=drive_link"> english sentiment analysis model link (imdb dataset)</a>  </p>
